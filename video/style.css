@@ -1,0 +1,34 @@
+body{
+    margin:0;
+}
+#everything{
+    width:100%;
+    height:90%;
+    background-color: black;
+
+}
+#vid1{
+position: absolute;
+    overflow:hidden;
+    width: 100%;
+    height:90%;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+#vid2{
+    overflow:hidden;
+    width: 100vw;
+    height:90%;
+}
+
+#slider{
+    margin-top:10px;
+    width: 98vw;
+}
+
+#container{
+    overflow: hidden;
+    position:absolute;
+    width: 50%;
+    height:100%;
+}

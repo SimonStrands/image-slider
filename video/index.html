@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <script src="javascript.js"></script>
+    <input type="file" id="input1" onchange="loadFile1(event)" >
+    <input type="file" id="input2" onchange="loadFile2(event)" >
+    <input type="button" id="button" onclick="play()">
+    <div id="everything">
+    <video id="vid1">
+        <source id="src1">
+    </video>
+   <div id="container">
+    <video id="vid2">
+        <source id="src2" src="">
+    </video>
+         </div>
+    </div>
+    <div class="slidecontainer">
+        <input type="range" min="0" max="100" value="50" id="slider" onmousemove="changediv(event)">
+    </div>
+</body>
+    
+    
+</html>
